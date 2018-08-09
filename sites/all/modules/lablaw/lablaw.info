@@ -1,0 +1,8 @@
+; Id:
+
+name = Lab Law
+description = Lab Law Custom Functions
+core = 7.x
+project = "other"
+scripts[] = lablaw.js
+stylesheets[all][] =lablaw.css

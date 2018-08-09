@@ -1,0 +1,277 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans
+FamilyName:Gill Sans
+StyleName:Regular
+MenuName:Gill Sans
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Gill Sans
+WritingScript:Roman
+OutlineFileName:\GillSans.ttc
+TTCOffset:60
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-UltraBold
+FamilyName:Gill Sans
+StyleName:UltraBold
+MenuName:Gill Sans
+StyleBits:0
+WeightClass:1000
+WidthClass:5
+AngleClass:0
+FullName:Gill Sans UltraBold
+WritingScript:Roman
+OutlineFileName:\GillSans.ttc
+TTCOffset:408
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-SemiBoldItalic
+FamilyName:Gill Sans
+StyleName:SemiBold Italic
+MenuName:Gill Sans
+StyleBits:1
+WeightClass:600
+WidthClass:5
+AngleClass:1
+FullName:Gill Sans SemiBold Italic
+FamilyNameNative:
+StyleNameNative:SemiBold Italic
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:\GillSans.ttc
+TTCOffset:708
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-SemiBold
+FamilyName:Gill Sans
+StyleName:SemiBold
+MenuName:Gill Sans
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Gill Sans SemiBold
+FamilyNameNative:
+StyleNameNative:SemiBold
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:\GillSans.ttc
+TTCOffset:976
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-LightItalic
+FamilyName:Gill Sans
+StyleName:Light Italic
+MenuName:Gill Sans
+StyleBits:1
+WeightClass:300
+WidthClass:5
+AngleClass:1
+FullName:Gill Sans Light Italic
+WritingScript:Roman
+OutlineFileName:\GillSans.ttc
+TTCOffset:1244
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-Light
+FamilyName:Gill Sans
+StyleName:Light
+MenuName:Gill Sans
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Gill Sans Light
+WritingScript:Roman
+OutlineFileName:\GillSans.ttc
+TTCOffset:1576
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-Italic
+FamilyName:Gill Sans
+StyleName:Italic
+MenuName:Gill Sans
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Gill Sans Italic
+WritingScript:Roman
+OutlineFileName:\GillSans.ttc
+TTCOffset:1892
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-BoldItalic
+FamilyName:Gill Sans
+StyleName:Bold Italic
+MenuName:Gill Sans
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Gill Sans Bold Italic
+WritingScript:Roman
+OutlineFileName:\GillSans.ttc
+TTCOffset:2224
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSans-Bold
+FamilyName:Gill Sans
+StyleName:Bold
+MenuName:Gill Sans
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Gill Sans Bold
+WritingScript:Roman
+OutlineFileName:\GillSans.ttc
+TTCOffset:2556
+DataFormat:sfntData
+FileLength:1223876
+FileModTime:1410288798
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TradeGothicLTStd-Bold
+FamilyName:Trade Gothic LT Std
+StyleName:Bold
+MenuName:Trade Gothic LT Std Bold
+StyleBits:0
+WeightClass:700
+WidthClass:4
+AngleClass:0
+FullName:Trade Gothic LT Std Bold
+WritingScript:Roman
+OutlineFileName:\TradeGothicLTStd-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:29336
+FileModTime:1389195099
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TradeGothicLTStd-Cn18
+FamilyName:Trade Gothic LT Std
+StyleName:Condensed No. 18
+MenuName:Trade Gothic LT Std Cn
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:Trade Gothic LT Std Condensed No. 18
+WritingScript:Roman
+OutlineFileName:\TradeGothicLTStd-Cn18.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:28748
+FileModTime:1410537035
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TradeGothicLTStd-Cn18Obl
+FamilyName:Trade Gothic LT Std
+StyleName:Condensed No. 18 Oblique
+MenuName:Trade Gothic LT Std Cn
+StyleBits:1
+WeightClass:400
+WidthClass:3
+AngleClass:1
+FullName:Trade Gothic LT Std Condensed No. 18 Oblique
+WritingScript:Roman
+OutlineFileName:\TradeGothicLTStd-Cn18Obl.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:29980
+FileModTime:1187788613
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TrajanPro-Bold
+FamilyName:Trajan Pro
+StyleName:Bold
+MenuName:Trajan Pro
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Trajan Pro Bold
+WritingScript:Roman
+OutlineFileName:\TrajanPro-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:69540
+FileModTime:1344969317
+DesignSize:360
+%EndFont
+

@@ -1,0 +1,98 @@
+diff --git a/modules/webform_encrypt_form_builder/webform_encrypt_form_builder.info b/modules/webform_encrypt_form_builder/webform_encrypt_form_builder.info
+index e69de29..0e3d0ad 100644
+--- a/modules/webform_encrypt_form_builder/webform_encrypt_form_builder.info
++++ b/modules/webform_encrypt_form_builder/webform_encrypt_form_builder.info
+@@ -0,0 +1,9 @@
++name = Webform Encrypt Form Builder
++description = Makes Webform Encrypt work with the Form Builder UI.
++core = 7.x
++package = Webform 
++
++dependencies[] = form_builder_webform
++dependencies[] = webform_encrypt
++
++files[] = webform_encrypt_form_builder.module
+\ No newline at end of file
+diff --git a/modules/webform_encrypt_form_builder/webform_encrypt_form_builder.module b/modules/webform_encrypt_form_builder/webform_encrypt_form_builder.module
+index e69de29..bdbad18 100644
+--- a/modules/webform_encrypt_form_builder/webform_encrypt_form_builder.module
++++ b/modules/webform_encrypt_form_builder/webform_encrypt_form_builder.module
+@@ -0,0 +1,77 @@
++<?php 
++
++/**
++ * @file
++ * Integrates webform_encrypt with form_builder_webform.
++ */
++
++/**
++ * Implements hook_form_builder_properties().
++ */
++function webform_encrypt_form_builder_form_builder_properties($form_type) {
++  return array(
++    'encrypt' => array(
++      'form' => 'webform_encrypt_form_builder_encrypt_form',
++    ),
++  );
++}
++
++/**
++ * Callback form for encrypt property.
++ */
++function webform_encrypt_form_builder_encrypt_form(&$form_state, $form_type, $element, $property) {
++
++  $component = &$element['#webform_component'];
++  $form = array();  
++
++  $excluded_types = array('fieldset', 'managed_file', 'markup', 'pagebreak', 'hidden');
++  if (!in_array($element['#type'], $excluded_types)) {
++
++    $form['encrypt'] = array(
++      '#form_builder' => array('property_group' => 'properties'),
++      '#title' => t('Encrypt this field\'s value'),
++      '#description' => t('!link to edit encryption settings.', array('!link' => l('Click here', 'admin/config/system/encrypt'))),
++      '#type' => 'checkbox',
++      '#default_value' => isset($component['extra']['encrypt']) ? $component['extra']['encrypt'] : 0,
++      '#weight' => 10,
++    );
++  }
++
++  return $form;
++}
++
++/**
++ * Implements hook_form_builder_load_alter().
++ */
++function webform_encrypt_form_builder_form_builder_load_alter(&$form, $form_type, $form_id) {
++  foreach ($form as $field => $settings) {
++    if (is_array($settings)) {
++      // Add encrypt to form so that it is retrieved upon form cache clear from
++      // extras array.
++      $form[$field]['#encrypt'] = isset($form[$field]['#webform_component']['extra']['encrypt']) ? $form[$field]['#webform_component']['extra']['encrypt'] : '';
++    }
++  }
++}
++
++/**
++ * Implements hook_form_builder_types_alter().
++ */
++function webform_encrypt_form_builder_form_builder_types_alter(&$types) {
++  if (isset($types['webform'])) {
++    // Adds 'encrypt' property to all components.
++    foreach ($types['webform'] as $type => $values) {
++      $types['webform'][$type]['properties'][] = 'encrypt';
++    }
++  }
++}
++
++/**
++ * Implements hook_form_builder_webform_property_map_alter().
++ */
++function webform_encrypt_form_builder_form_builder_webform_property_map_alter(&$map, $component_type) {
++  // Add properties to components map.
++  $map['properties']['encrypt'] = array(
++    'form_parents' => array('validation', 'encrypt'),
++    'storage_parents' => array('extra', 'encrypt'),
++  );
++}
+\ No newline at end of file

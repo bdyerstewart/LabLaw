@@ -1,0 +1,17 @@
+.parallax-bg {
+	bottom: 0;
+	height:100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+.parallax-bg-inner {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	max-width: none;
+	position: relative;
+}

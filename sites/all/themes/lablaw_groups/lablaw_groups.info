@@ -1,0 +1,10 @@
+name = LabLaw Group Theme
+description = Theme for Organic Groups on LabLaw based on Garland
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = style.css
+stylesheets[all][] = lablaw_groups.css
+stylesheets[print][] = print.css
+scripts[] = lablaw_groups.js
+settings[lablaw_groups_width] = fluid

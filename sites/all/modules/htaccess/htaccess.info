@@ -1,0 +1,12 @@
+name = Htaccess
+description = Generate htaccess accordings your settings.
+core = 7.x
+package = Administration
+configure = admin/config/system/htaccess
+
+; Information added by Drupal.org packaging script on 2017-04-11
+version = "7.x-2.6"
+core = "7.x"
+project = "htaccess"
+datestamp = "1491908045"
+

@@ -1,0 +1,89 @@
+var startrow = 1;
+(function ($) {
+    Drupal.behaviors.theme1033 = {
+        attach: function (context, settings) {
+            if( $('body').hasClass("front") ) {
+                if( $('li.front-menu-logo').length == 0) {
+                    var txt = "<li class='front-menu-logo'>";
+                    txt += "<img src='/sites/default/files/horsehead.png' />";
+                    $(txt).insertAfter('#menu-463-1');
+                }
+            }
+            var numrows = $('.view-categories .category-row').length;
+            if(numrows > 0){
+                if($('.view-categories .view-content').length){
+                    $('.view-categories .view-content').prepend('<div class="vc-btn vc-left">L</div>');
+                    $('.view-categories .view-content').append('<div class="vc-btn vc-right">R</div>');
+                }
+                showcats();
+                $('.vc-left').css('order','0');
+                $('.vc-right').css('order','5');
+                $('.vc-right').click(function(){
+                   startrow++;
+                   if(startrow > numrows){
+                       startrow = 1;
+                   }
+                   showcats();
+                });
+                $('.vc-left').click(function(){
+                    startrow = startrow - 1;
+                    if(startrow < 1){
+                        startrow = numrows -4;
+                    }
+                    //alert(startrow)
+                    showcats();
+                });
+            }
+            function showcats(){
+                $('.view-categories .category-row').hide();
+                for(var i = 0;i<4;i++){
+                    var x = startrow + i;
+                    if(x > numrows){
+                        startrow = 1;
+                        x = 1;
+                    }
+                    row = '.view-categories .category-row.views-row-' + x;
+
+                    $(row).show();
+                    $(row).css('order', (i + 1).toString());
+                }
+            }
+            // $('.view-categories').click(function(){
+            //     location.href = $(this).find('.cat-pick').attr('href');
+            // });
+            $('.portfolio-row').click(function(){
+                location.href = $(this).find('a').attr('href');
+            });
+            $('.view-blog-posts-display .pager-next a,.view-blog-posts-display .pager-previous a').html('');
+            $('.category-image.svg img').addClass('svg');
+            $('img.svg').each(function(){
+                var $img = $(this);
+                var imgID = $img.attr('id');
+                var imgClass = $img.attr('class');
+                var imgURL = $img.attr('src');
+
+                $.get(imgURL, function(data) {
+                    // Get the SVG tag, ignore the rest
+                    var $svg = $(data).find('svg');
+
+                    // Add replaced image's ID to the new SVG
+                    if(typeof imgID !== 'undefined') {
+                        $svg = $svg.attr('id', imgID);
+                    }
+                    // Add replaced image's classes to the new SVG
+                    if(typeof imgClass !== 'undefined') {
+                        $svg = $svg.attr('class', imgClass+' replaced-svg');
+                    }
+
+                    // Remove any invalid XML tags as per http://validator.w3.org
+                    $svg = $svg.removeAttr('xmlns:a');
+
+                    // Replace image with new SVG
+                    $img.replaceWith($svg);
+
+                }, 'xml');
+
+            });
+        }
+    };
+})(jQuery);

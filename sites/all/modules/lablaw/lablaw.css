@@ -1,0 +1,15 @@
+#lablaw-contact-form input,
+#lablaw-contact-form textarea{
+    color: #000 !important;
+}
+#lablaw-contact-form input.form-submit{
+    color: #fff !important;
+}
+.two-part{
+    width: 48%;
+    padding: 0 1% 0 0;
+    float: left;
+}
+.ll-label{
+    font-weight: bold;
+}

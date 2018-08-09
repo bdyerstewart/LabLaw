@@ -1,0 +1,223 @@
+.region-menu{
+    /*display: none;*/
+}
+.category-header {
+    font-size: 130%;
+    margin: 0 auto;
+    max-width: 550px;
+    font-weight: bold;
+    text-align: center;
+}
+.block-views-categories-block {
+    margin-bottom: 40px !important;
+}
+.view-categories {
+    padding-left: 20px;
+}
+.view-categories .view-header{
+    /*background-color: #F5F8FA;*/
+    padding: 25px 0;
+}
+.views-row.category-row{
+    margin-bottom: 60px;
+}
+.category-row {
+    width: 44%;
+    background-color: #fff;
+    padding:5px 1%;
+    border-radius: 20px;
+    min-height: 130px;
+    float: left;
+}
+.cat-pick{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    min-height: 150px;
+}
+.cat-pick:hover .category-desc {
+    display: block;
+    opacity: 1.0;
+    z-index: 10;
+    margin-top: -70px;
+}
+.category-image{
+    float: left;
+    padding: 0;
+    width: 100%;
+}
+.category-image {
+    float: left;
+}
+.category-title {
+    font-size: 115%;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    padding: 0 20px;
+    opacity: 1;
+    z-index: 10;
+}
+.category-desc {
+    font-size: 85%;
+    line-height: 1.2;
+    text-align: center;
+    padding: 0 15px;
+    display: none;
+}
+
+.kl-img {
+    width: 100%;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    border-radius: 100px;
+    height: auto;
+    position: absolute;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.kl-img img {
+    opacity:0.35;
+    border-radius: 100px;
+}
+.kl-img::before {
+    padding: 50% 0;
+    content: "";
+    float: left;
+}
+.kl-0 {
+    background-color: rgba(91,76,121,0.5);
+}
+.kl-1 {
+    background-color: rgba(0,172,195, 0.5);
+}
+.kl-2 {
+    background-color: rgba(214, 121, 44,0.5);
+}
+.kl-3 {
+    background-color: rgba(254,207,81,0.5);
+}
+.kl-4 {
+    background-color: rgba(178,206,113,0.5);
+}
+.kl-5 {
+    background-color: rgba(170, 17, 70,0.5);
+}
+/*.category-row:hover{*/
+    /*background-color: rgba(254,207,81,0.5);*/
+/*}*/
+.kl-img, .category-title, .category-desc{
+    transition: all .2s ease-in-out;
+}
+cat-pick:hover{
+}
+.cat-pick:hover .category-title {
+    font-size: 150%;
+}
+
+.category-row:hover .kl-img {
+    opacity: 0.3;
+    background-color: #dedede;
+}
+
+.clr-0:hover{
+    background-color: #CDF9FF;
+}
+.clr-1:hover{
+    background-color: #E1DAF1;
+}
+.clr-2:hover{
+    background-color: #fcdc8d;
+}
+.clr-3:hover{
+    background-color: #E9F5CC;
+}
+svg.svg{
+    width: 100%;
+    opacity: 0.6;
+}
+/*.category-row:hover svg.svg{*/
+    /*fill: #b20c46;*/
+/*}*/
+.front .portfolio-row {
+    width: 95%;
+    font-size: 1.3em;
+    background-color: #fff;
+    min-height: 325px;
+    position: relative;
+    padding: 15px 1% 0;
+    margin: 0 1.2% 0 1.8%;
+    float: left;
+    border: 1px solid #fff;
+    color: #000;
+}
+.front .portfolio-row a{
+    color: #000;
+}
+.front .portfolio-row:hover{
+    border: 1px solid #000;
+    background-color: #eee;
+
+}
+.front #footer .portfolio-row:hover  a{
+    color: #000;
+}
+.front .region-footer {
+    padding: 0;
+}
+@media screen and (min-width: 600px) {
+    .views-row.category-row{
+        margin-bottom: 30px;
+    }
+    .category-row {
+        width: 24%;
+        margin: 10px 1% 10px 1%;
+        padding:5px 1%;
+        float: left;
+    }
+    /*.kl-img{*/
+        /*width: 24%;*/
+    /*}*/
+    .cat-pick:hover .kl-img{
+        /*opacity: 1.0;*/
+        transform: scale(1.5, 1.5);
+        border: 1px solid red;
+    }
+    .cat-pick:hover .category-title{
+        /*padding-top: 15%;*/
+    }
+
+}
+@media screen and (min-width: 768px) {
+    .front .portfolio-row {
+        width: 28%;
+    }
+    .category-row {
+        width: 12%;
+        margin: 10px 1% 10px 1%;
+        padding:5px 1%;
+        float: left;
+    }
+    /*.kl-img{*/
+        /*width: 12%;*/
+    /*}*/
+
+}
+@media screen and (min-width: 960px) {
+
+    .category-row {
+        width: 12%;
+        margin: 10px 1% 10px 1%;
+        padding:5px 1%;
+        float: left;
+    }
+    /*.category-image{*/
+        /*width: 48%;*/
+    /*}*/
+    .view-display-id-topic_list .category-row {
+        width: 98%;
+    }
+}

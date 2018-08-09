@@ -1,0 +1,9 @@
+name = Webform Encrypt Form Builder
+description = Makes Webform Encrypt work with the Form Builder UI.
+core = 7.x
+package = Webform 
+
+dependencies[] = form_builder_webform
+dependencies[] = webform_encrypt
+
+files[] = webform_encrypt_form_builder.module
