@@ -12,8 +12,8 @@ var startrow = 1;
             var numrows = $('.view-categories .category-row').length;
             if(numrows > 0){
                 if($('.view-categories .view-content').length){
-                    $('.view-categories .view-content').prepend('<div class="vc-btn vc-left">L</div>');
-                    $('.view-categories .view-content').append('<div class="vc-btn vc-right">R</div>');
+                    $('.view-categories .view-content').prepend('<div class="vc-btn vc-left">&#xf0d9;</div>');
+                    $('.view-categories .view-content').append('<div class="vc-btn vc-right">&#xf0da;</div>');
                 }
                 showcats();
                 $('.vc-left').css('order','0');

@@ -45,7 +45,13 @@
 .vc-btn {
     position: relative;
     margin-top: 100px;
-    padding: 0 20px;
+    padding: 0 10px;
+    font-family: FontAwesome;
+    color: #133E60;
+    font-size: 50px;
+}
+.vc-btn:hover{
+    color: #0A87C2;
 }
 .category-row {
     width: 44%;
