@@ -22,7 +22,7 @@
 body {
     /*font-family: 'Open Sans', sans-serif;*/
     font-family: ugill, sans-serif;
-    background-color: #566d99;
+    background-color: #fff;
     color: #777;
 }
 
@@ -151,7 +151,7 @@ body a:hover {
 }
 
 #superfish-1 li.front-menu-logo {
-    margin-top: -35px;
+    margin-top: -10px;
 }
 
 .front-menu-logo img {
@@ -444,7 +444,8 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
 }
 
 .front #main-wrapper {
-    background-color: #fff;
+    background-color: #e6e6e6;
+    margin: 0 20px;
 }
 
 .front #main-wrapper h1, .front .content-main h3 {
