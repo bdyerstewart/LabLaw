@@ -21,6 +21,7 @@ stylesheets[screen][]	= css/style.css
 stylesheets[screen][]	= css/maintenance-page.css
 stylesheets[screen][]	= css/skeleton.css
 stylesheets[screen][]	= css/custom.css
+stylesheets[screen][]   = fonts/font-awesome.min.css
 
 ; Scripts ---------------------------------------------------------------------
 scripts[]				= js/theme1033.core.js
