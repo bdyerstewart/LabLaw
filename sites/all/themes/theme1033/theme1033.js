@@ -9,6 +9,7 @@ var itemshow = 4;
                     txt += "<img src='/sites/default/files/horsehead.png' />";
                     $(txt).insertAfter('#menu-463-1');
                 }
+                $('#footer_top_wrapper').prepend('<div class="footer-news-title"><h2>Latest News</h2></div>');
             }
             var numrows = $('.view-categories .category-row').length;
             if (numrows > 0) {
@@ -39,7 +40,7 @@ var itemshow = 4;
                 $('.vc-left').click(function () {
                     startrow = startrow - 1;
                     if (startrow < 1) {
-                        startrow = numrows - itemshow;
+                        startrow = numrows - itemshow + 1;
                     }
                     //alert(startrow)
                     showcats(itemshow);
