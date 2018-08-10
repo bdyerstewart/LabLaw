@@ -60,6 +60,7 @@ body a:hover {
 .container-12 .grid-12 {
     width: 100% !important;
     margin: 0 !important;
+    padding: 0 !important;
 }
 
 #main {
