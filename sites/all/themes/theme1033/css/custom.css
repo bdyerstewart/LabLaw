@@ -252,6 +252,7 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
     display: inline-block;
     padding: 0 4%;
     text-align: center;
+    border-bottom: 1px solid #133E60;
 }
 .front-page-links:hover {
     background-color: #c0d9e5;
@@ -372,6 +373,7 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
     border-radius: 120px;
     width: 246px;
     margin: 0 auto;
+    display: none;
 }
 .top-round img {
     border-radius: 120px;
