@@ -1409,6 +1409,8 @@ ul.responsive-menus-simple li::before {
 }
 .subscribe_cont .fieldset-wrapper div{
     margin: 0 10px;
+}
+.subscribe_cont .fieldset-wrapper input{
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;
     border-radius: 9px;
