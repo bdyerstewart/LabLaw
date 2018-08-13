@@ -1402,6 +1402,9 @@ ul.responsive-menus-simple li::before {
     display: flex;
     justify-content: center;
 }
+.subscribe_cont .fieldset-wrapper div{
+    margin: 0 10px;
+}
 @media only screen and (max-width: 1200px) {
     .edgeImage img {
         margin-left: 63%;
