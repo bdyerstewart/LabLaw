@@ -11,6 +11,12 @@ var itemshow = 4;
                 }
                 $('#footer_top_wrapper').prepend('<div class="footer-news-title"><h2>Latest News</h2></div>');
             }
+            if($('.subscribe_cont').length){
+                if (! $('.subscribe_cont').find('.form-actions')){
+                    $('.subscribe_cont .fieldset-wrapper').append($('#webform-client-form-346 .form-actions').detach());
+                }
+            }
+
             var numrows = $('.view-categories .category-row').length;
             if (numrows > 0) {
                 if ($('.view-categories .view-content').length) {
