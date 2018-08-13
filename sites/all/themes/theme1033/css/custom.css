@@ -1398,12 +1398,20 @@ iframe {
 ul.responsive-menus-simple li::before {
     content: '';
 }
+.subscribe_cont{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
 .subscribe_cont .fieldset-wrapper {
     display: flex;
     justify-content: center;
 }
 .subscribe_cont .fieldset-wrapper div{
     margin: 0 10px;
+}
+.webform-component--subscribe {
+    text-align: center;
 }
 @media only screen and (max-width: 1200px) {
     .edgeImage img {
