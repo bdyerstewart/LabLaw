@@ -1422,9 +1422,6 @@ ul.responsive-menus-simple li::before {
     -moz-border-radius: 9px;
     border-radius: 9px;
 }
-.subscribe_cont .fieldset-wrapper input::placeholder{
-    color: #888;
-}
 .webform-component--subscribe {
     text-align: center;
 }
