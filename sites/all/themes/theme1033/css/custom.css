@@ -1398,6 +1398,13 @@ iframe {
 ul.responsive-menus-simple li::before {
     content: '';
 }
+#block-webform-client-block-346 {
+    background-color: #1C435F;
+    padding-bottom: 20px;
+}
+#block-webform-client-block-346 .form-item{
+    margin: 0;
+}
 .subscribe_cont{
     border: none;
     margin: 0;
