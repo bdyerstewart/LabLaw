@@ -1415,7 +1415,7 @@ ul.responsive-menus-simple li::before {
     justify-content: center;
 }
 .subscribe_cont .fieldset-wrapper div{
-    margin: 0 10px;
+    margin: 0 10px !important;
 }
 .subscribe_cont .fieldset-wrapper input{
     -webkit-border-radius: 9px;
