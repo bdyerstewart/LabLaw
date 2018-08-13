@@ -1682,9 +1682,6 @@ ul.responsive-menus-simple li::before {
     .footerbottom a {
         font-size: 120%;
     }
-    .subscribe_cont .fieldset-wrapper {
-        flex-direction: row;
-    }
 }
 
 @media (max-width: 651px) {
@@ -1880,6 +1877,10 @@ ul.responsive-menus-simple li::before {
         float: left;
         width: 68%;
     }
+    .subscribe_cont .fieldset-wrapper {
+        flex-direction: row;
+    }
+
 }
 
 @media only screen and (min-width: 960px) {
