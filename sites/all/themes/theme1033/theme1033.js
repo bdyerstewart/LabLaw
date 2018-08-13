@@ -11,8 +11,8 @@ var itemshow = 4;
                 }
                 $('#footer_top_wrapper').prepend('<div class="footer-news-title"><h2>Latest News</h2></div>');
             }
-            if($('.subscribe_cont').length){
-                if (! $('.subscribe_cont').find('.form-actions')){
+            if( !$('.subscribe_cont').length){
+                if ( $('.subscribe_cont .fieldset-wrapper .form-actions').length){
                     $('.subscribe_cont .fieldset-wrapper').append($('#webform-client-form-346 .form-actions').detach());
                 }
             }
