@@ -1413,9 +1413,11 @@ ul.responsive-menus-simple li::before {
 .subscribe_cont .fieldset-wrapper {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .subscribe_cont .fieldset-wrapper div{
-    margin: 0 10px !important;
+    margin: 5px 10px !important;
 }
 .subscribe_cont .fieldset-wrapper input{
     -webkit-border-radius: 9px;
@@ -1679,6 +1681,9 @@ ul.responsive-menus-simple li::before {
 
     .footerbottom a {
         font-size: 120%;
+    }
+    .subscribe_cont .fieldset-wrapper {
+        flex-direction: row;
     }
 }
 
