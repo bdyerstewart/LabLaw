@@ -13,3 +13,21 @@
 .ll-label{
     font-weight: bold;
 }
+.web-alert{
+    border: 1px solid red !important;
+}
+div.web-alert{
+  color: red;
+  margin-bottom: 5px;
+  padding: 0 10px;
+}
+#autocomplete li{
+  padding-left: 8px;
+}
+#autocomplete li::before {
+  content: unset;
+}
+.webform-component .description {
+  line-height: 1.2;
+  max-width: 650px;
+}
