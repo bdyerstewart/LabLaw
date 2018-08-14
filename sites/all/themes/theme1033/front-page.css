@@ -236,6 +236,7 @@ svg.svg{
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 25px;
+    align-items: end;
 }
 @media screen and (min-width: 600px) {
     .views-row.category-row{
