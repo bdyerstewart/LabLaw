@@ -56,12 +56,12 @@ body a:hover {
     text-decoration: none;
 }
 
-.container-12,
-.container-12 .grid-12 {
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-}
+/*.container-12,*/
+/*.container-12 .grid-12 {*/
+    /*width: 100% !important;*/
+    /*margin: 0 !important;*/
+    /*padding: 0 !important;*/
+/*}*/
 
 #main {
     margin: 0 15px;
@@ -70,9 +70,11 @@ body a:hover {
 .front #header {
     background-color: inherit;
 }
-
+.region-footer{
+    background-color: #e6e6e6;
+}
 #footer a {
-    color: #fff;
+    color: #1C435F;
 }
 
 #footer a:hover {
@@ -1895,6 +1897,9 @@ ul.responsive-menus-simple li::before {
 }
 
 @media only screen and (min-width: 1350px) {
+    .container-12 .grid-8 {
+        width: 740px;
+    }
     .edgeImage img {
         margin-left: 70%;
     }
