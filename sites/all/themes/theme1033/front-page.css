@@ -218,17 +218,19 @@ svg.svg{
     padding: 7px;
     border-bottom: 1px solid #fff;
 }
+.ll-news-item:hover {
+ background-color: #0A87C2
+}
 .ll-news-item-link {
     min-width: 100px;
 }
 .ll-news-item-link a{
     font-style: italic;
 }
-.ll-news-item-link a:link,
-.ll-news-item-link a:visited,
-.ll-news-item-link a:active {
+.ll-news-item a:link,
+.ll-news-item a:visited,
+.ll-news-item a:active{
     color: #fff !important;
-    font-style: italic;
 }
 @media screen and (min-width: 600px) {
     .views-row.category-row{

@@ -358,6 +358,9 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
 .optbtn a:visited{
     color: #fff;
 }
+.optbtn:hover {
+    background-color: #123A5A;
+}
 .opttext{
     margin: 15px 5px;
     padding: 12px 20px 5px;
@@ -776,9 +779,9 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
     color: #000;
 }
 
-#footer .view-blog-posts-display .views-field-title a:hover {
-    background-color: rgba(254, 207, 81, 0.5);
-}
+/*#footer .view-blog-posts-display .views-field-title a:hover {*/
+    /*background-color: rgba(254, 207, 81, 0.5);*/
+/*}*/
 
 #footer .view-blog-posts-display .pager-current {
     display: none;
