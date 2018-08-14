@@ -232,6 +232,11 @@ svg.svg{
 .ll-news-item a:active{
     color: #fff !important;
 }
+.block-block-14 .tm-follow-links.clearfix.site {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+}
 @media screen and (min-width: 600px) {
     .views-row.category-row{
         margin-bottom: 30px;
