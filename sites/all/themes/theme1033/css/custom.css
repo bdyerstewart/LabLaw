@@ -870,11 +870,11 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
     margin: 10px 0 -15px;
 }
 
-#edit-submitted-email {
-    float: left;
-    margin: 0 10px;
-    border: 1px solid #000;
-}
+/*#edit-submitted-email {*/
+    /*float: left;*/
+    /*margin: 0 10px;*/
+    /*border: 1px solid #000;*/
+/*}*/
 
 #webform-client-form-335 .form-actions {
     display: inline-block;
