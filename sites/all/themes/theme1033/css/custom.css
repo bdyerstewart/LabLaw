@@ -94,7 +94,10 @@ body a:hover {
     color: #222c3d;
     text-decoration: none;
 }
-
+.region-footer .block-tm-follow .tm-follow-link-wrapper a {
+    border-color: #888;
+    color: #fff;
+}
 .block-tm-follow .tm-follow-link-wrapper a {
     color: #566d99;
     border-color: #566d99;
