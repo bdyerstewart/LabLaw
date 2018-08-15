@@ -93,7 +93,7 @@ body a:hover {
 }
 
 .front .header-section-2 {
-    background-color: #fff;
+    background-color: #133E60;
 }
 
 .header-section-2 {
@@ -324,7 +324,7 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
     text-shadow: 2px 2px #000;
     font-weight: bold;
     width: 100%;
-    height: 300px;
+    height: 440px;
     line-height: 50px;
 }
 .firstcap {
