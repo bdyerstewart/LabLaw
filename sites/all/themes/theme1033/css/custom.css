@@ -868,8 +868,8 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
     margin-bottom: 0;
 }
 .footerMid a:hover {
-    text-decoration: underline;
-    color: #000;
+    text-decoration: underline !important;
+    color: #000 !important;
 }
 .call-us {
     font-size: 40px;
