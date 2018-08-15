@@ -108,7 +108,7 @@ body a:hover {
     color: #fff;
 }
 
-.front .header-section-2 {
+.header-section-2 {
     background-color: #133E60;
 }
 
@@ -230,10 +230,6 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
 .isotope-element .views-field-field-portfolio-image {
     background: #fff url("../images/ajax-loader.gif") no-repeat scroll center center;
     margin: 0 10px 0 -7px !important;
-}
-.header-section-2 {
-    background: #36b452;
-    padding: 0;
 }
 .node-header {
     margin: 0;
