@@ -73,6 +73,19 @@ body a:hover {
 .region-footer{
     background-color: #e6e6e6;
 }
+.footer-wrapper .container-12{
+    width: 100%;
+}
+.footer-wrapper .grid-12 {
+    width: 100%;
+    margin: 0;
+}
+.footerbottom p {
+    margin: 5px;
+}
+.footerbottom hr {
+    display: none;
+}
 #footer a {
     color: #1C435F;
 }
