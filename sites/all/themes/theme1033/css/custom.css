@@ -337,7 +337,7 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
     font-family: utrajan;
     padding-top: 10%;
     text-align: center;
-    padding-right: 5%;
+    padding-right: 0;
     color: #fff;
     text-shadow: 2px 2px #000;
     font-weight: bold;
