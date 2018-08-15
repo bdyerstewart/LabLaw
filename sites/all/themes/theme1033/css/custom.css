@@ -190,7 +190,8 @@ body a:hover {
 
 #superfish-1 {
     margin-top: 10px;
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
 }
 #superfish-1 > li ul li > a:hover, #superfish-1 > li ul li.active-trail > a, #superfish-1 > li ul li.sfHover > a {
     background-color: #566d99;
