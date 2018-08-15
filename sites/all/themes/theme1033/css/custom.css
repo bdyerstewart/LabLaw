@@ -844,10 +844,10 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
 }
 
 .footerMid p {
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 13px;
+    line-height: 13px !important;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .call-us {
