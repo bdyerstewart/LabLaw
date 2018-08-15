@@ -1538,6 +1538,13 @@ ul.responsive-menus-simple li::before {
 }
 
 @media only screen and (max-width: 767px) {
+    .header-options{
+        background-color: transparent;
+        justify-content: space-around;
+    }
+    .opttext{
+        display: none;
+    }
     .header-section-2 {
         padding: 0;
     }
@@ -1597,6 +1604,14 @@ ul.responsive-menus-simple li::before {
 
     .region-header-top {
         padding-bottom: 10px;
+        margin: 0px -15px 0;
+        text-align: center;
+        background-image: url(/sites/default/files/mob_banner.jpg);
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        text-shadow: 1px 1px #000;
+        padding-top: 25px;
     }
 
     .front .slider-body h1 {
