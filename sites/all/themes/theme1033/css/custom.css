@@ -1544,6 +1544,7 @@ ul.responsive-menus-simple li::before {
     }
     #header h3 {
         font-size: 18px;
+        color: #fff;
     }
     #header p {
         font-size: 14px;
