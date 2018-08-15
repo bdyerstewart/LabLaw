@@ -163,9 +163,6 @@ svg.svg{
 .front .region-footer {
     padding: 0;
 }
-.footer_top_wrapper {
-    background: #1C435F !important;
-}
 .footer_top_wrapper .region {
     padding: 20px 0 !important;
 }
@@ -183,7 +180,7 @@ svg.svg{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: #1C435F;
+    background-color: transparent;
     color: #fff;
     max-width: 1140px;
     margin: 0 auto;

@@ -1664,12 +1664,12 @@ table .mini-day-on a:hover { text-decoration: underline; }
   font-weight: 400;
   padding: 0 30px;
 }
-.footer_top_wrapper {
-  background: #383838;
-  color: #919191;
-  font-size: 14px;
-  line-height: 24px;
-}
+/*.footer_top_wrapper {*/
+  /*background: #383838;*/
+  /*color: #919191;*/
+  /*font-size: 14px;*/
+  /*line-height: 24px;*/
+/*}*/
 .footer_top_wrapper .region { padding: 80px 0 67px; }
 .footer_top_wrapper h1, .footer_top_wrapper h2, .footer_top_wrapper h3, .footer_top_wrapper h4, .footer_top_wrapper h5, .footer_top_wrapper h6 { color: #fff; }
 .footer_top_wrapper .block-title {

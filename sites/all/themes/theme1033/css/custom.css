@@ -76,9 +76,18 @@ body a:hover {
 .footer-wrapper .container-12{
     width: 100%;
 }
-.footer-wrapper .grid-12 {
+.footer-wrapper .container-12 .grid-12 {
     width: 100%;
     margin: 0;
+}
+.footer_top_wrapper {
+    background-color: rgba(27,67,95,1);
+    color: #919191;
+    font-size: 14px;
+    line-height: 24px;
+    background-image: url(/sites/default/files/scourt.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 .footerbottom p {
     margin: 5px;
@@ -1415,6 +1424,9 @@ ul.responsive-menus-simple li::before {
 #block-webform-client-block-346 {
     background-color: #1C435F;
     padding-bottom: 20px;
+    background-image: url(/sites/default/files/scourt.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 #block-webform-client-block-346 .form-item{
     margin: 0;
