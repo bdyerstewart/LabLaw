@@ -331,9 +331,9 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
 
 .justice-header {
     background-image: url(/sites/default/files/v8_banner.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
     font-size: 45px;
     font-family: utrajan;
     padding-top: 10%;
