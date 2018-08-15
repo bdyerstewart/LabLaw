@@ -1543,7 +1543,10 @@ ul.responsive-menus-simple li::before {
         justify-content: space-around;
     }
     #header h3 {
-        font-size: 20px;
+        font-size: 18px;
+    }
+    #header p {
+        font-size: 14px;
     }
     .opttext{
         display: none;
