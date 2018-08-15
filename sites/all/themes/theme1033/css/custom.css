@@ -1547,6 +1547,7 @@ ul.responsive-menus-simple li::before {
     }
     #header p {
         font-size: 14px;
+        padding: 0 8px;
     }
     .opttext{
         display: none;
