@@ -355,18 +355,16 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
 .header-options {
     height: 75px;
     background-color: #fff;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     border-radius: 70% / 100%;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    border-bottom: 10px solid #133E60;
     display: flex;
     justify-content: center;
-    font-size: 25px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 22px;
 }
+
 .optbtn {
     background-color: #0A87C2;
     margin: 15px 5px;
@@ -1793,6 +1791,14 @@ ul.responsive-menus-simple li::before {
 }
 
 @media only screen and (min-width: 768px) {
+    .header-options {
+        position: absolute;
+        bottom: 0;
+        border-bottom: 10px solid #133E60;
+        font-size: 25px;
+        line-height: 27px;
+
+    }
     #footer .view-blog-posts-display .pager-next,
     #footer .view-blog-posts-display .pager-previous {
         top: 200px;
