@@ -345,6 +345,7 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
     width: 100%;
     height: 440px;
     line-height: 50px;
+    background-position: center;
 }
 .firstcap {
     font-size: 120%;
