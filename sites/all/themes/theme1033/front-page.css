@@ -1,13 +1,16 @@
 .pro-bono-raffle {
     background-color: #8e2626;
     text-align: center;
-    padding: 15px 0 0;
+    padding: 10px 0 0;
     margin: 0 -35px;
 }
 .pro-bono-raffle a:link,
 .pro-bono-raffle a:visited,
 .pro-bono-raffle a:active{
     color: #fff;
+}
+.pro-bono-raffle a:hover{
+    color: #ffe100;
 }
 .pro-bono-raffle h2:after{
     height: 0;
