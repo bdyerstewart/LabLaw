@@ -11,6 +11,7 @@
 }
 .pro-bono-raffle a:hover{
     color: #ffe100;
+    text-shadow: 2px 2px #000;
 }
 .pro-bono-raffle h2:after{
     height: 0;
