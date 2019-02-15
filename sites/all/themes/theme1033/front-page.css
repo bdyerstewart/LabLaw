@@ -1,3 +1,25 @@
+#vid-container {
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -100;
+}
+#section_2_wrapper .parallax-bg {
+display: none;
+}
+
+
+#myVideo {
+    position: relative;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    /* background: transparent url(video-bg.jpg) no-repeat; */
+    background-size: cover;
+}
 .pro-bono-raffle {
     background-color: #8e2626;
     text-align: center;

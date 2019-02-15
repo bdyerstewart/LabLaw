@@ -6,7 +6,9 @@
 */
 
 function tm_shortcodes_init() {
-	$inline_script = '<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_RPnSCPIaReqKJfD4oyzMMRZR2K6Ly20"></script>';
+	//$inline_script = '<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_RPnSCPIaReqKJfD4oyzMMRZR2K6Ly20"></script>';
+    $inline_script = '<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtoS3vhtaTqowOSw9xlNgPAi9wMNXrXJM"></script>';
+
 	$element = array(
 		'#type' => 'markup',
 		'#markup' => $inline_script,

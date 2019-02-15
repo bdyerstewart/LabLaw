@@ -1,6 +1,7 @@
 <?php
 
 require_once DRUPAL_ROOT . '/' . drupal_get_path('module', 'lablaw') . '/lablaw.admin.inc';
+require_once DRUPAL_ROOT . '/' . drupal_get_path('module', 'lablaw') . '/lablaw.forms.inc';
 function lablaw_init()
 {
     global $base_url;
@@ -40,8 +41,32 @@ function lablaw_menu()
         'access callback' => TRUE,
         'type' => MENU_CALLBACK,
     );
-
+    $items['lab_tiks'] = array(
+        'title' => 'Thank You',
+        'page callback' => 'lablaw_ticks',
+        'access callback' => TRUE,
+    );
+    $items['lab_tickets'] = array(
+        'title' => 'Thank You',
+        'page callback' => 'lablaw_tickets',
+        'access callback' => TRUE,
+    );
     return $items;
+}
+
+function lablaw_ticks(){
+    $bds = "";
+    $token = $_POST['stripeToken'];
+    $type = $_POST['stripeTokenType'];
+    $email = $_POST['stripeEmail'];
+    dsm($token);
+    dsm($email);
+    return "hello";
+}
+function lablaw_tickets(){
+    $form = drupal_get_form('lablaw_ticket_form');
+    $out = drupal_render($form);
+    return $out;
 }
 
 //function lablaw_custom_theme() {

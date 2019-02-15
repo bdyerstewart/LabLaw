@@ -330,7 +330,7 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
 }
 
 .justice-header {
-    background-image: url(/sites/default/files/v8_banner.jpg);
+    /*background-image: url(/sites/default/files/v8_banner.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 5%;
@@ -346,6 +346,7 @@ ul li.isotope-element::before, .item-list ul li.isotope-element::before, ul.menu
     height: 440px;
     line-height: 50px;
     background-position: center;
+    background-color: rgba(0,0,0,0.6);
 }
 .firstcap {
     font-size: 120%;

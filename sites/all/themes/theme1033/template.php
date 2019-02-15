@@ -483,8 +483,8 @@ function theme1033_preprocess_comment( &$variables ) {
 }
 
 /* Less compiler */
-include( 'includes/lessc.inc.php' );
-include( 'includes/less-compile.php' );
+//include( 'includes/lessc.inc.php' );
+//include( 'includes/less-compile.php' );
 
 /* Region options */
 function theme1033_region_preffix ( $reg ) {
